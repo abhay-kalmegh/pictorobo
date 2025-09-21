@@ -1,0 +1,39 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env*/ 
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Migrations (optional: keep if you want migrations in repo)
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# pytest / coverage / test artifacts
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# CKEditor uploaded files
+uploads/

@@ -1,6 +1,6 @@
 from django.db import models
 from ckeditor.fields import RichTextField  # Optional, for rich product descriptions
-from category.models import Category
+from categories.models import Category
 
 # Create your models here.
 
